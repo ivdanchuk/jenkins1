@@ -27,7 +27,8 @@ public class UserIdGeneratorServiceMockTest {
     @Test
     public void test1() {
         mockStatic(UserIdGeneratorService.class);
-        when(UserIdGeneratorService.generateId()).thenReturn(1l);git
+        when(UserIdGeneratorService.generateId()).thenReturn(1l);
+        //ok
         userConfigService.configUser(user);
         assertEquals(user.getId(), expectedId);
     }
