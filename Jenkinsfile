@@ -13,7 +13,7 @@ pipeline {
                 git 'https://github.com/ivdanchuk/jenkins1.git'
 
 
-                bat "mvn -Dmaven.test.failure.ignore=true clean package"
+                bat "mvn clean package"
             }
 
             post {
