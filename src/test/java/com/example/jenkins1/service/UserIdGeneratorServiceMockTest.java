@@ -21,7 +21,7 @@ public class UserIdGeneratorServiceMockTest {
     public void setUp() {
         userConfigService = new UserConfigService();
         user = new User();
-        expectedId = 2l;
+        expectedId = 1l;
     }
 
     @Test
